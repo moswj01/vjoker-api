@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "top_ups",
+  "info": {
+    "singularName": "top-up",
+    "pluralName": "top-ups",
+    "displayName": "TopUp",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "money": {
+      "type": "integer"
+    },
+    "username": {
+      "type": "string"
+    },
+    "status": {
+      "type": "boolean",
+      "default": false
+    },
+    "serial": {
+      "type": "string",
+      "maxLength": 6,
+      "minLength": 6
+    }
+  }
+}
